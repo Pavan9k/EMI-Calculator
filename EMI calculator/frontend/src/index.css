@@ -1,0 +1,258 @@
+
+.logo{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(87, 67, 67);
+    margin-right: 600px;
+    margin-left: 40px;
+    align-items: center;
+}
+.nav{
+
+    float: right;
+}                     
+.nav-link:hover {
+    background-color: #ddd;
+    color: white;
+    color: black;
+  }
+  
+.nav-link{
+    margin-right: 50px;
+    color: white;
+}
+.Reghead{
+    margin-left: 30%;
+    text-align: center;
+    width: 40%;
+
+}
+.Regbody{
+    margin-left: 30%;
+    background-color:white;
+    width: 40%;
+    height: 50%;
+    
+}
+.loginhead{
+    margin-left: 30%;
+    text-align: center;
+    color: black;
+    width: 40%;
+    border: 2px solid black;
+
+}
+.loginbody{
+    margin-left: 30%;
+    background-color:white;
+    width: 40%;
+    height: 50%;
+    border: 3px solid black;
+}
+.login{
+    background-image: url("https://wallpapercave.com/wp/wp2939892.jpg");
+    height: 713px;   
+
+}
+
+
+.home{
+    margin-top: 150px;
+}
+.containerBody{
+    width: 100%;
+    height:100vh;
+    /* background-image: url("https://image.shutterstock.com/image-vector/bmi-body-mass-index-icons-260nw-1268366299.jpg"); */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.nav-item{
+    color:black;
+    
+}
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .container{
+    background-color: white;
+    
+  }
+  
+  .btn-secondary{
+    margin-left: 30px;
+  }
+  /* .Chart{
+    margin-left: 10%;
+  } */
+  /* .particulars{
+    margin-left: 50%;
+  } */
+  .float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+  }
+  
+  .float-child {
+    width: 50%;
+    padding: 20px;
+    /* border: 2px solid black; */
+    height: 400px;
+  }  
+  .floatchild1{
+    margin-top: 10px;
+    padding-left: 10px;
+    float: right;
+  }
+  .floatchild2{
+    padding-right: 50%
+  }
+  .floatchild3{
+    margin-left: 20%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    height: 100px;
+  }
+  .floatchild4{
+    margin-left: 90%;
+  }
+  .btn-outline-success{
+    margin-top: 10px;
+  }
+  main{
+    margin: auto;
+    margin-top: 35px;
+    width: 35%;
+    border: 1.5px solid rgb(56, 157, 204);
+    padding: 10px;
+    height: 250px;
+    background-color: white;
+  }
+  .mainInRegister{
+    margin: auto;
+    margin-top: 35px;
+    width: 35%;
+    padding: 10px;
+    background-color: rgb(25, 153, 175);
+  }
+  .heading{
+    margin: auto;
+    margin-top: 20px;
+    width: 35%;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+  }
+
+  .submit{
+    float:left;
+    margin-top: 10px;
+    margin-left: 20px;
+    }
+  .regbackground{
+    margin: auto;
+    background-image: url("https://wallpapercave.com/wp/wp2939892.jpg");
+    height: 713px;
+    background-color: white;
+  }
+ 
+ 
+  .backgroundForReg{
+    background-color: #e6f5ff;
+  }
+ 
+  .flex-parent {
+    display: flex;
+  }
+  
+  .jc-center {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .errorDiv{
+    justify-content: center;
+  }
+  .centerAdmin {
+    margin-top: 10%;
+    width: 40%;
+    border: 5px solid #FFFF00;
+    padding: 10px;
+    }
+  .buttonAdmin{
+      margin-left: 40%;
+      border: 5px solid #FFFF00;
+      padding: 10px;
+  }
+  .downloadbutton{
+    margin-left: 65%;
+    margin-top: 10px;
+  }
+  .registerbutton{
+      margin-top: 10px;
+      size: 50%;
+  }
