@@ -3,16 +3,18 @@
 ## Project Setup
 
  split terminal
- A. for terminal one
+ 
+ - for terminal one
    1. cd frontend
    2. npm install
    3. npm start
-   4. Open the project on 
- B. for terminal two
+   4. Open the project on local host
+
+ - for terminal two
    1. cd backend
    2. npm install
    3. npm start
-   4. Open the project on
+   4. Open the project on local host
 ```
 
 ## Features
